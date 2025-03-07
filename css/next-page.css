@@ -1,0 +1,26 @@
+.next-page {
+  background-color: rgb(130, 108, 84);
+  right: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  justify-items: center;
+  height: 60px;
+  border: none;
+}
+
+.b-n {
+  border: none;
+  background-color: rgb(55, 43, 37);
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 180px;
+}
+
+.bn2 {
+  margin-left: -900px;
+  margin-right: -900px;
+}

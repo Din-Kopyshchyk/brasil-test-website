@@ -1,0 +1,75 @@
+.grid-products {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 300px;
+  
+}
+
+
+.list-p {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: repeat(3, 35vw);
+  grid-gap: 15px;
+  justify-items: center;
+  
+}
+
+.product {
+  height: 400px;
+  display: block;
+  width: 100%;
+  
+}
+
+.p1, .p2, .p3, .p4,.p5,.p6,.p7,.p8,.p9 {
+  position: relative;
+  /*position: static;*/
+  cursor: pointer;
+}
+
+
+.overlay {
+  position:absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.p1:hover .overlay {
+  opacity: 1;
+}
+.p2:hover .overlay {
+  opacity: 1;
+}
+.p3:hover .overlay {
+  opacity: 1;
+}
+.p4:hover .overlay {
+  opacity: 1;
+}
+.p5:hover .overlay {
+  opacity: 1;
+}
+.p6:hover .overlay {
+  opacity: 1;
+}
+.p7:hover .overlay {
+  opacity: 1;
+}
+.p8:hover .overlay {
+  opacity: 1;
+}
+.p9:hover .overlay {
+  opacity: 1;
+}
+
+.hp1 {
+  height: 400px;
+  width: 100%;
+}
